@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <div class="relative w-full min-h-screen overflow-hidden">
     <!-- Background videos -->
@@ -24,13 +25,13 @@
 
         <div class="flex flex-col sm:flex-row sm:items-center gap-4 justify-center xl:justify-start">
           <!-- Signup input -->
-          <div class="flex border border-orange-400 rounded-lg overflow-hidden w-full sm:w-auto">
+          <div class="flex border border-bcoin-primary rounded-lg overflow-hidden w-full sm:w-auto">
             <input
               type="text"
               placeholder="Email/Phone number"
               class="flex-grow px-4 py-2 bg-transparent text-white outline-none"
             >
-            <button class="bg-yellow-400 text-black font-semibold px-4">Sign Up</button>
+            <button class="bg-bcoin-primary text-black font-semibold px-4">Sign Up</button>
           </div>
 
           <p>or</p>
