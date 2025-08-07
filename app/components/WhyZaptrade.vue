@@ -13,22 +13,22 @@
       </p>
 
       <div
-        v-for="card in cards"
-        :key="card.id"
         class="flex flex-wrap lg:flex-nowrap justify-center md:justify-start xl:justify-center gap-4"
       >
-        <WhyCard
-          :title="card.title"
-          :description="card.description"
-          :icon="card.icon"
-        />
+        <div v-for="card in cards" :key="card.id">
+          <WhyCard
+            :title="card.title"
+            :description="card.description"
+            :icon="card.icon"
+          />
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <script setup>
-import bgImage from "../assets/zaptrade-img/bg-image.png";
+import bgImage from "/images/zaptrade-img/bg-image.png";
 import { cards } from "../data/data";
 import WhyCard from "./cards/WhyCard.vue";
 </script>
