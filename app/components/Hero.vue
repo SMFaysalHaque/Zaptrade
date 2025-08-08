@@ -26,7 +26,7 @@
       class="relative z-10 w-full min-h-screen grid grid-cols-1 xl:grid-cols-2 items-center px-4 sm:px-8 md:px-12 xl:px-20 py-10"
     >
       <!-- Left content -->
-      <div class="text-white space-y-6 text-center xl:text-left">
+      <div class="text-bcoin-primary space-y-6 text-center xl:text-left">
         <p
           class="font-semibold text-3xl sm:text-4xl md:text-5xl xl:text-[65px] leading-tight"
         >
@@ -40,18 +40,20 @@
         </p>
 
         <div
-          class="flex flex-col sm:flex-row sm:items-center gap-4 justify-center xl:justify-start"
+          class="flex flex-col lg:flex-row items-center gap-4 justify-center xl:justify-start"
         >
           <!-- Signup input -->
           <div
-            class="flex border border-bcoin-primary rounded-lg overflow-hidden w-full sm:w-auto"
+            class="flex w-fit border border-[#4A4A4A] bg-[#1E2329] rounded-lg overflow-hidden sm:w-auto p-2"
           >
             <input
               type="text"
               placeholder="Email/Phone number"
-              class="flex-grow px-4 py-2 bg-transparent text-white outline-none"
+              class="placeholder:text-sm placeholder:leading-5 placeholder:tracking-[0%] placeholder:pl-[7px] placeholder:text-light-gray font-light outline-none"
             />
-            <button class="bg-bcoin-primary text-black font-semibold px-4">
+            <button
+              class="font-semibold leading-6 bg-bcoin-primary text-charcoal-black py-3 px-9 rounded-[6px]"
+            >
               Sign Up
             </button>
           </div>
@@ -60,10 +62,10 @@
 
           <!-- Social buttons -->
           <div
-            class="flex items-center justify-center gap-[15px] p-[15px] bg-[#1E2329] border border-[#4A4A4A] rounded-lg"
+            class="flex items-center justify-center gap-[15px] p-[15px] bg-[#1E2329] border border-[#4A4A4A] rounded-lg w-fit"
           >
             <button
-              class="bg-white rounded-full w-9 h-9 flex items-center justify-center"
+              class="rounded-full w-9 h-9 flex items-center justify-center"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -118,7 +120,7 @@
 
       <!-- Right floating cards -->
       <div
-        class="relative w-full h-[400px] sm:h-[500px] xl:h-full mt-10 xl:mt-0"
+        class="relative w-full h-[400px] sm:h-[500px] xl:h-full mt-10 xl:mt-0 hidden xl:block"
       >
         <div class="absolute top-[245px] left-[31px] hidden sm:block">
           <CryptoCard

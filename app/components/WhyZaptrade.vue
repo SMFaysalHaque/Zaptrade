@@ -29,6 +29,6 @@
 
 <script setup>
 import bgImage from "/images/zaptrade-img/bg-image.png";
-import { cards } from "../data/data";
+import { cards } from "../../data/data";
 import WhyCard from "./cards/WhyCard.vue";
 </script>
